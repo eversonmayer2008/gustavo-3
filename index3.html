@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Criar Conta</title>
+     <link rel="icon" type="image/png" href="https://github.com/Douglas-Marcondes/Grupo-A/blob/main/logo1.png?raw=true">    
+
+    <style>
+    
+    body, html {
+        margin: 0;
+        padding: 0;
+        height: 100%;
+        }
+
+    .gradient-border {
+        margin-top: -300px;
+        vertical-align: top;
+        background: linear-gradient(to bottom, black, transparent 20%, transparent 80%, black);
+        height: 100%;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        box-sizing: border-box;
+        }
+
+    body {
+        background-color:rgba(38, 38, 38, 0.733);    
+        background-image: url('https://t2.tudocdn.net/606318?w=1920');
+        font-family: Arial, sans-serif;
+        text-align: center;
+        margin-top:300px;
+        }
+    #titulo{
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-weight: bold;
+    }   
+
+    .textojanela{
+    text-align: center;
+    font-size: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-left:250px; 
+    margin-right:250px;
+    padding:15px;
+
+}
+
+
+    form {
+        max-width: 300px;
+        margin: 0 auto;
+        background:rgba(255, 255, 255, 0.753);
+        padding: 20px;
+        border-radius: 15px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.9);
+        }
+
+     input {
+        width: 100%;
+        padding: 10px;
+        margin: 8px 0;
+        box-sizing: border-box;
+        }
+
+    .button-like2 {
+        display: inline-block;
+        padding: 10px 15px;
+        text-decoration: none;
+        background-color: #000000d2;
+        color:white;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        }
+    .button-like{
+        display: inline-block;
+        padding: 10px 15px;
+        text-decoration: none;
+        background-color: #dadada6c;
+        color:rgb(0, 45, 248);
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        margin-left: -40px;
+        }
+        
+    </style>
+</head>
+
+<body>
+    <div class="gradient-border">
+        <div class="content">
+
+    <form action="/login" method="post">
+        <h2 id="titulo">Criar Conta</h2>
+        <label for="username" id="texto">Nome de Usuário:</label>
+        <input type="text" id="username" name="username" required>
+
+        <label for="email" id="texto">e-mail:</label>
+        <input type="text" id="email" name="email" required>
+
+        <label for="telefone" id="texto">telefone</label>
+        <input type="text" id="telefone" name="telefone" required>
+
+        <label for="cpf" id="texto">CPF</label>
+        <input type="text" id="cpf" name="cpf" required>
+     
+        <label for="password">Senha:</label>
+        <input type="password" id="password" name="password" required>
+
+         <a href="index2.html" class="button-like" id="texto">Login</a>
+        <a href="index2.html" class="button-like2" id="textojanela">Criar Conta</a>  
+        </div>
+    </div>
+    </div>
+    </form>
+
+    <script src="index.js"></script>
+</body>
+</html>
