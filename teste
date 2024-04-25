@@ -1,0 +1,53 @@
+
+  #logo {
+            position: absolute;
+            top: 0;
+            left: 0;
+        } 
+
+        .logodosite {
+           position: relative;
+           height: 120px;
+           right: 100px;
+        
+        }
+
+ <img id="logo" src="https://github.com/Douglas-Marcondes/Grupo-A/blob/main/logo1.png?raw=true.png" alt="Logo da Minha Página">
+
+
+
+
+
+<img id="imagem" src="https://files.tecnoblog.net/wp-content/uploads/2020/12/como-jogar-minecraft-via-hamachi-1060x596.jpg">
+
+    <p id="texto">"Prepare-se para embarcar em uma jornada épica em Minicraft, um jogo que redefine os limites da criatividade e exploração. Com sua mecânica de construção intuitiva e um mundo gerado proceduralmente, cada nova partida é uma aventura única esperando para ser descoberta.
+
+        Desenvolvido com gráficos pixelizados encantadores, Minicraft mergulha os jogadores em um ambiente cativante, repleto de possibilidades infinitas. Explore vastas planícies, densas florestas, cavernas sinuosas e montanhas majestosas enquanto colhe recursos preciosos para a sua sobrevivência e construção.
+        
+        Mas não se engane pela aparente simplicidade dos gráficos, Minicraft oferece uma profundidade impressionante. a criação de ferramentas básicas até a construção de complexas estruturas, cada decisão molda o seu destino neste mundo dinâmico. 
+        
+        Enfrente criaturas perigosas que vagam pelo dia e pela noite, desde os temíveis creepers até os esqueletos arqueiros. Ou desafie-se em masmorras geradas aleatoriamente, repletas de armadilhas mortais e tesouros escondidos.</p>
+        
+        <p id="texto">Com atualizações regulares e uma comunidade vibrante de jogadores, Minicraft está sempre evoluindo. Novos biomas, itens, monstros e mecânicas são adicionados constantemente, garantindo que cada sessão de jogo seja uma experiência nova e emocionante.
+        
+        O destino deste mundo está em suas mãos. Você irá construir um império glorioso ou sucumbirá à escuridão que espreita nas profundezas? Baixe Minicraft agora e comece sua jornada para descobrir!"
+        
+       Abaixo tem links para fazer o download, guia para iniciantes, e segredos e curiosidades que voçe provavelmente não sabe sobre o jogo!
+        
+    </p>
+    <img id="imagem2" src="https://fabriciosanchez.com.br/wp-content/uploads/2017/11/minecraft.jpg">
+
+    
+    <p><ul id="texto"> 
+        <li><a href="https://www.exemplo.com">Clique aqui para fazer o Download do jogo</a></li>
+        <li><a href="https://www.exemplo.com">Guia Ptrático do Jogo</a></li>
+        <li><a href="https://www.exemplo.com">Curiosidades e segredos sobre o Jogo</a></p>
+</ul>
+
+
+    <footer>
+        <p>&copy; 2024 Minha Página. Todos os direitos reservados.</p>
+    </footer>
+  
+</body>
+</html>
